@@ -49,7 +49,6 @@ def update_test_results():
         {"$set": {f"{backend}.{submodule}": res}},
         upsert=True,
     )
-    return
 
 
 if __name__ == "__main__":

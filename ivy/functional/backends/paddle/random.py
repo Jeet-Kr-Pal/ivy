@@ -142,7 +142,6 @@ def randint(
 
 def seed(*, seed_value: int = 0):
     _ = paddle.seed(seed_value)
-    return
 
 
 def shuffle(

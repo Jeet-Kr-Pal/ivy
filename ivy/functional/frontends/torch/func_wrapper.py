@@ -30,7 +30,6 @@ class AccumulateGrad:
 
     def __call__(self, grads):
         self.__self__._grads = grads
-        return None
 
 
 class GradFn:

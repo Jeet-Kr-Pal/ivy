@@ -111,7 +111,6 @@ def randint(
 
 def seed(*, seed_value: int = 0):
     np.random.seed(seed_value)
-    return
 
 
 def shuffle(
