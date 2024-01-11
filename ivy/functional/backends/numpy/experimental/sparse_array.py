@@ -89,7 +89,6 @@ def native_sparse_array(
             dense_shape=dense_shape,
         )
     logging.warning("Numpy does not support sparse array natively, None is returned.")
-    return None
 
 
 def native_sparse_array_to_indices_values_and_shape(x):

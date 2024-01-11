@@ -21,7 +21,6 @@ def bernoulli(input, *, generator=None, out=None):
 @to_ivy_arrays_and_back
 def manual_seed(seed: int):
     ivy.seed(seed_value=seed)
-    return None
 
 
 @with_supported_dtypes(
